@@ -59,7 +59,6 @@ namespace Inlamning_2_ra_kod
         {
             Console.Write("Vem vill du ändra (ange namn): ");
             string WantToChange = Console.ReadLine();
-
             int found = -1;
             for (int i = 0; i < Dict.Count(); i++)
             {
